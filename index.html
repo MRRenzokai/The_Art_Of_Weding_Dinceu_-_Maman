@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Open Graph Metadata -->
+    <title id="meta-title">The Wedding of Maman Abdul Rahman & Dinceu Kamelia</title>
+    <meta name="description" id="meta-desc" content="Undangan Pernikahan Maman Abdul Rahman & Dinceu Kamelia">
+    <meta property="og:title" content="The Wedding of Maman Abdul Rahman & Dinceu Kamelia">
+    <meta property="og:description" content="Minggu, 22 November 2026">
+    <meta property="og:image" content="assets/images/cover.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts: Cormorant Garamond & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<!-- 1. OPENING / COVER (Dengan Slideshow Animasi & Sapaan Tamu) -->
+<section id="opening" class="opening-section">
+    <!-- Slideshow Background Bergantian -->
+    <div class="opening-slideshow">
+        <div class="slide active" style="background-image: url('assets/images/gallery/img_3.jpeg');"></div>
+        <div class="slide" style="background-image: url('assets/images/gallery/img_1.jpeg')"></div>
+        <div class="slide" style="background-image: url('assets/images/gallery/img_2.jpeg');"></div>
+    </div>
+    <div class="overlay"></div>
+
+    <div class="opening-content reveal">
+        <span class="subtitle">THE WEDDING OF</span>
+        <h1 id="couple-names-cover" class="couple-title">Maman abdul rahman & Dinceu kamelia</h1>
+        <p id="wedding-date-cover" class="wedding-date-text">22 November 2026</p>
+        
+        <!-- Kartu Sapaan & Nama Tamu -->
+        <div class="guest-envelope-card">
+            <span class="envelope-icon">&#9993;</span>
+            <p class="guest-to">Kepada Yth. Bapak/Ibu/Saudara/i:</p>
+            <h3 id="guest-name" class="guest-name">Tamu Undangan</h3>
+            <p class="guest-note">Tanpa mengurangi rasa hormat, kami mengundang Anda untuk hadir di acara pernikahan kami.</p>
+        </div>
+
+        <button id="open-invitation-btn" class="btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            Buka Undangan
+        </button>
+    </div>
+</section>
+
+    <!-- MAIN CONTAINER (Hidden until opened) -->
+    <div id="main-container" class="main-container hidden">
+
+        <!-- HERO SECTION -->
+        <header class="hero-section" style="background-image: url('assets/images/gallery/img_5.jpeg');">
+            <div class="overlay"></div>
+            <div class="hero-content reveal">
+                <span class="subtitle">THE WEDDING OF</span>
+                <h1 class="couple-title">Maman abdul rahman & Dinceu kamelia</h1>
+                <p class="wedding-date-text" id="hero-date">Sabtu, 12 Desember 2026</p>
+            </div>
+        </header>
+
+<!-- FOTO BERGERAK (MARQUEE BANNER PORTRAIT) -->
+        <div class="photo-marquee-section">
+            <div class="marquee-track">
+                <!-- Group 1 -->
+                <div class="marquee-group">
+                    <div class="marquee-img"><img src="assets/images/gallery/img_1.jpeg" alt="Photo 1" loading="lazy"></div>
+                    <div class="marquee-img"><img src="assets/images/gallery/img_2.jpeg" alt="Photo 2" loading="lazy"></div>
+                    <div class="marquee-img"><img src="assets/images/gallery/img_3.jpeg" alt="Photo 3" loading="lazy"></div>
+                    <div class="marquee-img"><img src="assets/images/gallery/img_4.jpeg" alt="Photo 4" loading="lazy"></div>
+                </div>
+                <!-- Group 2 (Duplikat persis 100% dari Group 1 untuk menyambung animasi) -->
+                <div class="marquee-group" aria-hidden="true">
+                    <div class="marquee-img"><img src="assets/images/gallery/img_5.jpeg" alt="Photo 5" loading="lazy"></div>
+                    <div class="marquee-img"><img src="assets/images/gallery/img_6.jpeg" alt="Photo 6" loading="lazy"></div>
+                    <div class="marquee-img"><img src="assets/images/gallery/img_7.jpeg" alt="Photo 7" loading="lazy"></div>
+                    <div class="marquee-img"><img src="assets/images/gallery/img_8.jpeg" alt="Photo 8" loading="lazy"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. GREETING -->
+        <section class="section greeting-section">
+            <div class="container text-center reveal">
+                <p class="arabic-text">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+                <h2 class="section-title">Assalamu'alaikum Warahmatullahi Wabarakatuh</h2>
+                <p class="greeting-desc">
+                    Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk hadir dalam acara pernikahan kami.
+                </p>
+            </div>
+        </section>
+
+        <!-- 3. COUNTDOWN -->
+<!-- 3. COUNTDOWN & HADIS -->
+        <section class="section countdown-section">
+            <div class="container text-center reveal">
+                <h3>Menuju Hari Bahagia</h3>
+
+                <!-- Kutipan Hadis Pernikahan -->
+                <div class="wedding-quote-box">
+                    <p class="arabic-quote">إِذَا تَزَوَّجَ الْعَبْدُ فَقَدْ كَمُلَ نِصْفُ الدِّينِ، فَلْيَتَّقِ اللَّهَ فِي النِّصْفِ الْبَاقِي</p>
+                    <p class="translation-quote">
+                        "Jika seorang hamba menikah, sungguh ia telah menyempurnakan separuh agama. Hendaknya ia bertakwa kepada Allah pada separuh yang tersisa."
+                    </p>
+                    <span class="hadith-source">(HR. Baihaqi & At-Thabrani)</span>
+                </div>
+
+                <!-- Kotak Hitung Mundur -->
+                <div id="countdown" class="countdown-grid">
+                    <div class="countdown-item">
+                        <span id="days" class="countdown-number">00</span>
+                        <span class="countdown-label">Hari</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours" class="countdown-number">00</span>
+                        <span class="countdown-label">Jam</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes" class="countdown-number">00</span>
+                        <span class="countdown-label">Menit</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds" class="countdown-number">00</span>
+                        <span class="countdown-label">Detik</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. PROFIL MEMPELAI -->
+        <section class="section couple-section">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="subtitle">Bahtera Cinta</span>
+                    <h2>Mempelai Bahagia</h2>
+                </div>
+                <div class="couple-grid">
+                    <!-- Groom -->
+                    <div class="couple-card text-center reveal">
+                        <div class="photo-frame">
+                            <img id="groom-photo" src="assets/images/groom.jpg" alt="Groom" loading="lazy">
+                        </div>
+                        <h3 id="groom-name">Maman Abdul Rahman</h3>
+                        <p class="parent-text">Putra dari</p>
+                        <p id="groom-parents" class="parent-names">Bapak H. Budi Pratama & Ibu Hj. Siti Aminah</p>
+                        <a id="groom-ig" href="#" target="_blank" class="social-link">Instagram</a>
+                    </div>
+
+                    <div class="couple-divider reveal">&amp;</div>
+
+                    <!-- Bride -->
+                    <div class="couple-card text-center reveal">
+                        <div class="photo-frame">
+                            <img id="bride-photo" src="assets/images/bride.jpg" alt="Bride" loading="lazy">
+                        </div>
+                        <h3 id="bride-name">Dinceu Kamelia</h3>
+                        <p class="parent-text">Putri dari</p>
+                        <p id="bride-parents" class="parent-names">Bapak H. Ahmad Dahlan & Ibu Hj. Fatimah</p>
+                        <a id="bride-ig" href="#" target="_blank" class="social-link">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. LOVE STORY -->
+        <section id="lovestory-section" class="section lovestory-section">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="subtitle">Our Journey</span>
+                    <h2>Kisah Cinta Kami</h2>
+                </div>
+                <div id="timeline-container" class="timeline">
+                    <!-- Dinamis via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. DETAIL ACARA (+ Save to Calendar) -->
+        <section class="section events-section">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="subtitle">Save The Date</span>
+                    <h2>Rangkaian Acara</h2>
+                </div>
+                <div class="events-grid">
+                    <!-- Akad -->
+                    <div class="event-card reveal">
+                        <div>
+                            <h3>Akad Nikah</h3>
+                            <div class="event-info">
+                                <p class="event-date" id="akad-date">22 November 2026</p>
+                                <p class="event-time" id="akad-time">08.00 WIB - Selesai</p>
+                                <p class="event-venue" id="akad-venue">Rumah Mempelai Wanita</p>
+                                <p class="event-address" id="akad-address">Dsn. Sudimara Rt/Rw 05/02 Desa. Panawangan Kec. Panawangan Kab. Ciamis</p>
+                            </div>
+                        </div>
+                        <div class="event-actions">
+                            <a id="akad-maps" href="#" target="_blank" class="btn-outline">Lihat Lokasi</a>
+                            <button id="save-akad-calendar" class="btn-outline">Simpan Kalender</button>
+                        </div>
+                    </div>
+
+                    <!-- Resepsi -->
+                    <div class="event-card reveal">
+                        <div>
+                            <h3>Resepsi Pernikahan</h3>
+                            <div class="event-info">
+                                <p class="event-date" id="reception-date">Sabtu, 12 Desember 2026</p>
+                                <p class="event-time" id="reception-time">11.00 - 14.00 WIB</p>
+                                <p class="event-venue" id="reception-venue">Rumah Mempelai Wanita</p>
+                                <p class="event-address" id="reception-address">Dsn. Sudimara Rt/Rw 05/02 Desa. Panawangan Kec. Panawangan Kab. Ciamis</p>
+                            </div>
+                        </div>
+                        <div class="event-actions">
+                            <a id="reception-maps" href="#" target="_blank" class="btn-outline">Lihat Lokasi</a>
+                            <button id="save-reception-calendar" class="btn-outline">Simpan Kalender</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. GALLERY -->
+        <section class="section gallery-section">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="subtitle">Moments</span>
+                    <h2>Galeri Foto</h2>
+                </div>
+                <div id="gallery-grid" class="gallery-grid reveal">
+                    <!-- Dinamis via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- LIGHTBOX MODAL -->
+        <div id="lightbox" class="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+        </div>
+
+        <!-- 9. RSVP -->
+        <section class="section rsvp-section">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="subtitle">Konfirmasi</span>
+                    <h2>Kehadiran (RSVP)</h2>
+                </div>
+                <form id="rsvp-form" class="rsvp-form reveal">
+                    <div class="form-group">
+                        <label for="rsvp-name">Nama Lengkap</label>
+                        <input type="text" id="rsvp-name" class="form-control" placeholder="Masukkan nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="rsvp-status">Status Kehadiran</label>
+                        <select id="rsvp-status" class="form-control" required>
+                            <option value="Hadir">Akan Hadir</option>
+                            <option value="Tidak Hadir">Tidak Dapat Hadir</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="rsvp-message">Ucapan / Catatan (Opsional)</label>
+                        <textarea id="rsvp-message" class="form-control" rows="3" placeholder="Tulis ucapan atau pesan..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Kirim via WhatsApp</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- 10. WEDDING GIFT -->
+        <section class="section gift-section">
+            <div class="container text-center">
+                <div class="section-header reveal">
+                    <span class="subtitle">Tanda Kasih</span>
+                    <h2>Kado Pernikahan</h2>
+                    <p class="gift-desc">Bagi keluarga dan sahabat yang ingin mengirimkan tanda kasih, dapat melalui:</p>
+                </div>
+                <div id="gifts-container" class="gifts-grid reveal">
+                    <!-- Dinamis via JavaScript -->
+                </div>
+                <div class="gift-address-card reveal">
+                    <h4>Kirim Kado Fisik</h4>
+                    <p id="gift-recipient-name">Maman Abdul Rahman & Dinceu Kamelia</p>
+                    <p id="gift-address-text">Dsn. Sudimara Rt/Rw 05/02 Desa. Panawangan Kec. Panawangan Kab. Ciamis</p>
+                    <button id="copy-address-btn" class="btn-outline small">Salin Alamat</button>
+                </div>
+            </div>
+        </section>
+
+<!-- 11. GUEST BOOK / UCAPAN (BUKU TAMU INTERAKTIF) -->
+        <section class="section comments-section">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="subtitle">Doa & Ucapan</span>
+                    <h2>Buku Tamu</h2>
+                    <p class="section-desc">Tuliskan ucapan dan doa restu untuk kedua mempelai</p>
+                </div>
+
+                <!-- Form Input Ucapan Tamu -->
+                <div class="comment-form-card reveal">
+                    <form id="guestbook-form">
+                        <div class="form-group">
+                            <label for="guest-book-name">Nama</label>
+                            <input type="text" id="guest-book-name" class="form-control" placeholder="Nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guest-book-msg">Ucapan & Doa</label>
+                            <textarea id="guest-book-msg" class="form-control" rows="4" placeholder="Tulis doa restu di sini..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary full-width">Kirim Ucapan</button>
+                    </form>
+                </div>
+
+                <!-- List / Daftar Ucapan Tamu -->
+                <div class="comment-box-wrapper reveal">
+                    <div id="comments-list" class="comments-list">
+                        <!-- Pesan default / yang masuk akan tampil di sini secara dinamis -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. CLOSING -->
+        <section class="section closing-section text-center" style="background-image: url('assets/images/cover.jpg');">
+            <div class="overlay"></div>
+            <div class="closing-content reveal">
+                <p class="closing-desc">
+                    Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.
+                </p>
+                <p class="thank-you">Terima kasih</p>
+                <h2 id="couple-names-closing" class="couple-title">Maman & Dinceu</h2>
+            </div>
+        </section>
+
+        <!-- 13. VENDOR / PROMO BANNER (CREATOR FOOTER) -->
+        <section class="section vendor-promo-section text-center">
+            <div class="container reveal">
+                <!-- Logo Kamu (Dipastikan Center) -->
+                <div class="vendor-logo-wrapper">
+                    <img src="assets/images/gallery/RENZO STUDIO LOGO.png" alt="Logo Brand Kamu" class="vendor-logo" loading="lazy">
+                </div>
+                
+                <h3 class="vendor-brand-title">Ingin Undangan Digital Seperti Ini?</h3>
+                <p class="vendor-promo-desc">
+                    Buat momen spesialmu makin berkesan dengan undangan digital interaktif yang elegan, praktis, dan mudah dibagikan. Cocok untuk pernikahan, ulang tahun, dan acara spesial lainnya.
+                </p>
+
+                <!-- Tombol Sosmed dengan Ikon SVG -->
+                <div class="vendor-social-links">
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/6282121622142?text=Halo,%20saya%20tertarik%20mau%20pesan%20undangan%20digital." target="_blank" class="social-btn wa">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                        WhatsApp
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/renzostrudio15/" target="_blank" class="social-btn ig">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        Instagram
+                    </a>
+                    <!-- TikTok -->
+                    <a href="https://www.tiktok.com/@pecin200" target="_blank" class="social-btn tt">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
+                        TikTok
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 13. FOOTER -->
+        <footer class="footer">
+            <p>Made with love &bull; Wedding Template By RENZO STUDIO</p>
+        </footer>
+
+    </div><!-- /main-container -->
+
+    <!-- 8. MUSIK PLAYER FLOATING BUTTON -->
+    <div id="music-control" class="music-control hidden">
+        <button id="music-toggle-btn" aria-label="Play/Pause Music">
+            <svg id="music-icon-play" class="music-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            <svg id="music-icon-pause" class="music-icon hidden" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+        </button>
+        <audio id="bg-music" loop>
+            <source src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">Berhasil disalin!</div>
+
+    <!-- Script Konfigurasi & Modul -->
+    <script src="data/wedding.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/music.js"></script>
+    <script src="js/calendar.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
