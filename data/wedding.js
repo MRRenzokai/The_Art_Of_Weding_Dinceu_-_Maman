@@ -83,8 +83,7 @@ const weddingData = {
         "assets/images/gallery/img_7.jpeg",
         "assets/images/gallery/img_8.jpeg",
         "assets/images/gallery/img_9.jpeg",
-        "assets/images/gallery/img_10.jpeg"
-
+        "assets/images/gallery/img_10.jpeg",
     ],
 
     // Musik Latar
