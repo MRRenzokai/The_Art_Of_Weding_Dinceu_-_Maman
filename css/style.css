@@ -332,6 +332,7 @@ textarea.form-control{resize:vertical;min-height:100px}
 }
 .couple-title .amp{
   display:block;
+  align-self:center;
   font-size:.55em;            /* lebih kecil dari nama */
   font-weight:400;
   line-height:1;

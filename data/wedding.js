@@ -1,13 +1,13 @@
 const weddingData = {
     // Informasi Umum / SEO
     seo: {
-        title: "The Wedding of Maman & Dinceu",
+        title: "The Wedding of Dinceu & Maman",
         description: "Minggu, 22 November 2026. Kepada Bapak/Ibu/Saudara/i, kami mengundang Anda untuk hadir di acara pernikahan kami.",
         shareImage: "assets/images/gallery/img_1.jpeg"
     },
 
-    // Mempelai Pria
-    groom: {
+    // Mempelai Wanita
+    bride: {
         name: "Maman Abdul Rahman",
         nickname: "Maman Abdul Rahmanan",
         father: "Bapak Yayan Hendriana",
@@ -16,14 +16,15 @@ const weddingData = {
         instagram: "https://www.instagram.com/man_smilleoudontcry27?stkn=MWh2dWFsbTZ0dHV6Nw=="
     },
 
-    // Mempelai Wanita
-    bride: {
-        name: "Dinceu Kamelia",
+    // Mempelai Pria
+    groom: {
+                name: "Dinceu Kamelia",
         nickname: "Dinceu Kamelia",
-        father: "Aapak Ade Kurnia",
-        mother: "ibu Astiawati",
+        father: "Bapak Ade Kurnia",
+        mother: "Ibu Astiawati",
         photo: "assets/images/gallery/dinceupas.jpeg",
         instagram: "https://www.instagram.com/renkairui_?stkn=djMweGo1aXV3M2M1"
+
     },
 
     // Waktu & Tanggal Utama (Format: YYYY-MM-DDTHH:MM:SS untuk Countdown)
@@ -51,24 +52,29 @@ const weddingData = {
     // Love Story / Perjalanan Cinta (Opsional, kosongkan array jika tidak ada)
     loveStory: [
         {
-            year: "2022",
-            title: "Pertama Bertemu",
-            description: "Kami pertama kali bertemu di sebuah acara seminar di Jakarta dan mulai bertukar kabar."
+            year: "Masa Sekolah SMK",
+            title: "Awal Mula Bersemi",
+            description: "Berawal dari masa-masa SMK—saat Maman duduk di kelas 11 dan Dinceu di kelas 10. Semuanya bersemi dari sebaris nomor WhatsApp yang didapat dari seorang teman, perlahan merajut percakapan yang membawa takdir mempertemukan kami."
         },
         {
-            year: "2023",
-            title: "Komitmen & First Date",
-            description: "Setelah melalui banyak diskusi dan kebersamaan, kami memutuskan untuk menjalin hubungan serius."
+            year: "20 Oktober 2019",
+            title: "First Date & Resmi Jadian",
+            description: "Perjalanan berlanjut saat Maman memberanikan diri mengajak jalan ke daerah Kawali. Di sebuah taman yang jadi saksi bisu, first date itu terjadi. Tepat pada 20 Oktober 2019, lembaran baru sebagai pasangan resmi dimulai."
         },
         {
-            year: "2025",
-            title: "Pertunangan (Engagement)",
-            description: "Melangkah ke jenjang yang lebih serius dengan melangsungkan prosesi lamaran keluarga."
+            year: "Tahun Ke-3",
+            title: "Ujian Waktu & Bersemi Kembali",
+            description: "Hubungan tak selalu lurus. Setelah 3 tahun bersama, sempat ada badai yang membuat kami harus berpisah. Namun, waktu punya cara sendiri; hanya berselang 3 bulan, benih cinta itu bersemi kembali dengan keyakinan yang jauh lebih matang."
         },
         {
-            year: "2026",
-            title: "Hari Pernikahan",
-            description: "Hari bahagia di mana kami mengikat janji suci pernikahan di hadapan Allah SWT dan keluarga."
+            year: "08 Juli 2023",
+            title: "Langkah Menuju Serius (Tunangan)",
+            description: "Setelah kembali menguatkan komitmen, Maman membawa niat baiknya ke jenjang yang lebih tinggi. Pada 08 Juli 2023, ikatan pertunangan resmi disematkan, membuktikan bahwa yang ditakdirkan bersama pasti akan kembali pulang."
+        },
+        {
+            year: "22 November 2026",
+            title: "Menyempurnakan Separuh Agama",
+            description: "Dari ruang chat WhatsApp masa SMK, melewati tawa, perpisahan, hingga ikatan tunangan—kini seluruh perjalanan panjang itu bermuara di sini. Tanggal 22 November 2026, Maman & Dinceu resmi mengikat janji suci pernikahan selamanya."
         }
     ],
 
@@ -84,35 +90,38 @@ const weddingData = {
         "assets/images/gallery/img_8.jpeg",
         "assets/images/gallery/img_9.jpeg",
         "assets/images/gallery/img_10.jpeg",
+        "assets/images/gallery/img_11.jpeg",
+        "assets/images/gallery/img_12.jpeg",
+        "assets/images/gallery/img_13.jpeg",
+        "assets/images/gallery/img_14.jpeg"
     ],
 
     // Musik Latar
     music: {
-        audioSource: "assets/music/play_2.mp3", // Path ke file audio (mp3)
-        
+        audioSource: "assets/music/play_2.mp3" // Path ke file audio (mp3)
     },
 
     // Informasi RSVP & WhatsApp
     whatsapp: {
-        phoneNumber: "6282164995924", // Format nomor tanpa tanda + atau 0 di depan (contoh: 628...)
-        templateMessage: "Halo Maman & Dinceu, saya mengonfirmasi bahwa saya akan"
+        phoneNumber: "6288222447715", // Format nomor tanpa tanda + atau 0 di depan (contoh: 628...)
+        templateMessage: "Halo Dinceu & Maman, saya mengonfirmasi bahwa saya akan"
     },
 
     // Rekening / Wedding Gift
     gifts: [
         {
-            bankName: "Bank BRI",
-            accountNumber: "4055 0102 0955 535",
-            accountName: "Maman Abdul Rahman"
-        },
-        {
             bankName: "Bank DANA",
             accountNumber: "088222447715",
             accountName: "Dinceu Kamelia"
+        },
+        {
+            bankName: "Bank BRI",
+            accountNumber: "4055 0102 0955 535",
+            accountName: "Maman Abdul Rahman"
         }
     ],
     giftAddress: {
-        recipient: "Maman Abdul Rahman & Dinceu Kamelia",
+        recipient: "Dinceu Kamelia & Maman Abdul Rahman",
         address: " Dsn.Sudimara Rt/Rw 05/02 Desa.Panawangan Kec.Panawangan Kab.Ciamis"
     }
 };
